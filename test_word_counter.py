@@ -1,4 +1,12 @@
-def word_counter():   
+def count_words(filename):
+    try:
+        with open(filename, 'r') as file:
+            return len(file.read().split())
+    except FileNotFoundError:
+        return "File not found!"
+ 
+ 
+def word_counter():
     # Test case 1: Non-empty file
     with open('test_file.txt', 'w') as file:
         file.write("Hello world! This is a test file.")
