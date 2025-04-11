@@ -20,7 +20,8 @@ def word_counter():
     assert count_words('nonexistent_file.txt') == "File not found!", "T3 failed!"
 
 
-    print("All test cases passed!")
+print("All test cases passed!")
+
 
 if __name__ == "__main__":
     word_counter()
