@@ -1,4 +1,4 @@
-def test_word_counter():
+def word_counter():
 
     test_file = 'test_file.txt'
     with open(test_file, 'w') as file:
