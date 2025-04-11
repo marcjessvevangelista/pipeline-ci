@@ -5,6 +5,7 @@ def count_words(filename):
     except FileNotFoundError:
         return "File not found!"
 
+
 def word_counter():
     # Test case 1: Non-empty file
     with open('test_file.txt', 'w') as file:
