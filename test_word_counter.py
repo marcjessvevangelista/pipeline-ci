@@ -22,6 +22,5 @@ def word_counter():
 
     print("All test cases passed!")
 
-
 if __name__ == "__main__":
     word_counter()
