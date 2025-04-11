@@ -18,8 +18,8 @@ def word_counter():
 
     # Test case 3: Nonexistent file
     assert count_words('nonexistent_file.txt') == "File not found!", "Test case 3 failed!"
-
-
+    
+    
     print("All test cases passed!")
 
 
