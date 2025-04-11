@@ -1,4 +1,5 @@
 def word_counter():
+
     
     with open('test_file.txt', 'w') as file:
         file.write("Hello world! This is a test file.")
