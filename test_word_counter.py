@@ -3,9 +3,7 @@
 from word_counter import count_words
 
 
-
 def test_counter():
-
     # Test case 1: Non-empty file
     with open('test_file.txt', 'w') as file:
         file.write("Hello world! This is a test file.")
